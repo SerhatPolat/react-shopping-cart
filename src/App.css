@@ -1,0 +1,190 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: rgb(253, 250, 29);
+  background: linear-gradient(
+    197deg,
+    rgba(253, 250, 29, 1) 0%,
+    rgba(252, 176, 69, 1) 50%,
+    rgba(255, 46, 0, 1) 100%
+  );
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+@media only screen and (max-width: 1000px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sitename {
+    display: none;
+  }
+
+  .logoandsitenamediv {
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  html {
+    height: 100%;
+  }
+}
+
+h1,
+h2,
+h3 {
+  margin: 5px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-1 {
+  flex: 1;
+}
+
+.col-2 {
+  flex: 2;
+}
+
+.block {
+  background-color: #4d1d80;
+  border-radius: 10px;
+  padding: 2%;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img.small {
+  max-height: 150px;
+  border-radius: 10px;
+}
+
+.productprice {
+  font-family: sans-serif;
+}
+
+.additembutton {
+  background-color: rgb(253, 250, 29);
+  padding: 7px;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  border-radius: 20px;
+  outline: none;
+  border: solid black 2px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.additembutton:hover {
+  background-color: black;
+  color: white;
+  border-color: rgb(253, 250, 29);
+}
+
+.additembutton:active {
+  color: black;
+  background-color: white;
+  border-color: rgb(253, 250, 29);
+}
+
+.productdiv {
+  margin-top: 20px;
+  display: grid;
+  place-items: center;
+}
+
+.price-text {
+  text-align: right;
+}
+
+.add-button {
+  outline: none;
+  background-color: rgb(253, 250, 29);
+  border-radius: 10px;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: black;
+  color: white;
+  border: solid rgb(253, 250, 29) 1px;
+}
+
+.add-button:active {
+  background-color: green;
+  color: black;
+  border-color: black;
+}
+
+.remove-button {
+  outline: none;
+  background-color: rgb(253, 250, 29);
+  border-radius: 10px;
+  font-size: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: black;
+  color: white;
+  border: solid rgb(253, 250, 29) 1px;
+}
+
+.remove-button:active {
+  background-color: red;
+  color: black;
+  border-color: black;
+}
+
+::selection {
+  background-color: yellow;
+  color: black;
+}
+
+.logo {
+  max-width: 70px;
+}
+
+.logoandsitenamediv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sitename {
+  margin-left: 10px;
+}
+
+.buyButton {
+  background-color: rgb(253, 250, 29);
+  display: block;
+  margin: auto;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.buyButton:hover {
+  background-color: black;
+  color: white;
+  border: solid rgb(253, 250, 29) 1px;
+}
