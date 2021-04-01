@@ -181,6 +181,7 @@ img.small {
   font-size: 20px;
   border-radius: 10px;
   outline: none;
+  cursor: pointer;
 }
 
 .buyButton:hover {
