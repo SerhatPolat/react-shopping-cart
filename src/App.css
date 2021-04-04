@@ -57,6 +57,7 @@ h3 {
 
 .block {
   background-color: #4d1d80;
+  /* alternative => background-color: #585858; */
   border-radius: 10px;
   padding: 2%;
   margin: 10px;
@@ -78,18 +79,22 @@ img.small {
 
 .additembutton {
   background-color: rgb(253, 250, 29);
+  /* alternative => background-color: black; */
+  /* alternative => color: white; */
   padding: 7px;
   font-size: 18px;
   font-family: "Oswald", sans-serif;
   border-radius: 20px;
   outline: none;
   border: solid black 2px;
+  /* alternative => border: solid rgb(253, 250, 29) 2px; */
   margin-top: 10px;
   cursor: pointer;
 }
 
 .additembutton:hover {
   background-color: black;
+  /* alternative => background-color: #585858; */
   color: white;
   border-color: rgb(253, 250, 29);
 }
