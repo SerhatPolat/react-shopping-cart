@@ -8,6 +8,7 @@
 <img src="project-pictures/Ekran Görüntüsü (30).png" width="300px">
 </div>
 <hr>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
