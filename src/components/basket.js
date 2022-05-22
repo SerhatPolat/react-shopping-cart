@@ -7,7 +7,7 @@ export default function Basket(props) {
   const totalPrice = itemsPrice + shippingPrice;
 
   function purchase() {
-    alert("Purchased");
+    alert("Purchased.\n" + totalPrice + " dollars was taken from your wallet");
 
     setTimeout(function () {
       window.location.reload();
@@ -19,6 +19,7 @@ export default function Basket(props) {
       <h2>Cart Items</h2>
       <div>
         {cartItems.length === 0 && <p>Cart is empty.</p>}
+
         {cartItems.map((item) => (
           <div key={item.id} className="row">
             <div className="col-2">{item.name}</div>
