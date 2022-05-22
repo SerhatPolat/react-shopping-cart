@@ -1,6 +1,6 @@
-import guitarphoto from "./productImages/guitarphoto.jpg";
-import headsetphoto from "./productImages/headsetphoto.jpg";
-import phonephoto from "./productImages/phonephoto.jpg";
+import guitarphoto from "./assets/guitarphoto.jpg";
+import headsetphoto from "./assets/headsetphoto.jpg";
+import phonephoto from "./assets/phonephoto.jpg";
 
 const productData = {
   products: [

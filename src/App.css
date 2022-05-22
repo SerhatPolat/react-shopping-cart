@@ -51,11 +51,6 @@ a {
   color: white;
 }
 
-img.small {
-  max-height: 150px;
-  border-radius: 10px;
-}
-
 .productprice {
   font-family: sans-serif;
 }
@@ -92,6 +87,10 @@ img.small {
   margin-top: 20px;
   display: grid;
   place-items: center;
+}
+
+.productdiv img {
+  border-radius: 10px;
 }
 
 .price-text {

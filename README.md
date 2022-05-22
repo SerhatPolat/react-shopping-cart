@@ -1,11 +1,11 @@
 <h1>Screenshots</h1>
 <h3>Desktop View</h3>
-<img src="project-pictures/Ekran Görüntüsü (28).png">
+<img src="screenshots/Ekran Görüntüsü (28).png">
 <br>
 <h3>Mobile View</h3>
 <div>
-<img src="project-pictures/Ekran Görüntüsü (29).png" width="300px">
-<img src="project-pictures/Ekran Görüntüsü (30).png" width="300px">
+<img src="screenshots/Ekran Görüntüsü (29).png" width="300px">
+<img src="screenshots/Ekran Görüntüsü (30).png" width="300px">
 </div>
 <hr>
 
