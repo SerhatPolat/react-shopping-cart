@@ -1,3 +1,6 @@
+<h1>Demo</h1>
+<a href="https://SerhatPolat.github.io/react-shopping-cart">Click here to visit the app</a>
+<br><br>
 <h1>Screenshots</h1>
 <h3>Desktop View</h3>
 <img src="screenshots/Ekran Görüntüsü (28).png">
